@@ -16,6 +16,18 @@
         android:text="pullToRefresh"
         android:onClick="pullToRefresh"/>
 
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="DynamicImage"
+        android:onClick="dynamicImage"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="ActionBar"
+        android:onClick="actionBar"/>
+
 
 
 

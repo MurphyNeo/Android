@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
@@ -19,8 +22,6 @@ import java.util.List;
  * Created by Neo on 15/9/19.
  */
 public class SwiperefreshFragment extends Fragment {
-
-    public static final int INDEX = 0;
 
     private ListView mListView;
     private ArrayAdapter<String> mAdapter;
@@ -80,4 +81,5 @@ public class SwiperefreshFragment extends Fragment {
             mSwipeRefreshLayout.setRefreshing(false);
         }
     }
+
 }

@@ -24,8 +24,6 @@ import java.util.List;
  */
 public class PulltorefreshFragment extends Fragment {
 
-    public static final int INDEX = 1;
-
     private ArrayAdapter<String> mAdapter;
     private PullToRefreshListView mListView;
     private List<String> mDataList = new ArrayList<String>(Arrays.asList("下拉刷新"));
