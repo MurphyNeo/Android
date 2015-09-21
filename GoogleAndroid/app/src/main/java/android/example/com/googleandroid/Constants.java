@@ -10,6 +10,8 @@ public class Constants {
         public static final int PULLTOREFRESH_INDEX = 1;
         public static final int DYNAMICIMAGE_INDEX = 2;
         public static final int ACTIONBAR_INDEX = 3;
+        public static final int TABONE_INDEX = 4;
+        public static final int INDICATOR_INDEX = 5;
     }
 
     public static class Fragment {

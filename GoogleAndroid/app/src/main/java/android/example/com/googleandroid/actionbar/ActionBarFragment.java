@@ -160,7 +160,7 @@ public class ActionBarFragment extends Fragment implements ActionBar.TabListener
 
         @Override
         public int getCount() {
-            return 3;
+            return 4;
         }
 
         @Override

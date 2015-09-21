@@ -28,6 +28,18 @@
         android:text="ActionBar"
         android:onClick="actionBar"/>
 
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="TabOne"
+        android:onClick="tabOne"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="ViewPagerIndicator"
+        android:onClick="indicator"/>
+
 
 
 

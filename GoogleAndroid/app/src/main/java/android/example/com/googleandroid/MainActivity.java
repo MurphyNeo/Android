@@ -43,6 +43,14 @@ public class MainActivity extends Activity {
         publicIntent(Constants.Index.ACTIONBAR_INDEX);
     }
 
+    public void tabOne(View view){
+        publicIntent(Constants.Index.TABONE_INDEX);
+    }
+
+    public void indicator(View view){
+        publicIntent(Constants.Index.INDICATOR_INDEX);
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main_fragment_menu, menu);

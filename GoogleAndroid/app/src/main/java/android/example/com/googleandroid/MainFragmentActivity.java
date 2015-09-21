@@ -4,6 +4,8 @@ import android.example.com.googleandroid.actionbar.ActionBarFragment;
 import android.example.com.googleandroid.dynamicimage.DynamicImageFragment;
 import android.example.com.googleandroid.pulltorefresh.PulltorefreshFragment;
 import android.example.com.googleandroid.swiperefresh.SwiperefreshFragment;
+import android.example.com.googleandroid.tabone.TabOneFragment;
+import android.example.com.googleandroid.viewpagerindicator.IndicatorFragment;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -54,6 +56,20 @@ public class MainFragmentActivity extends FragmentActivity {
                 fr = fm.findFragmentByTag(tag);
                 if(fr == null){
                     fr = new ActionBarFragment();
+                }
+                break;
+            case Constants.Index.TABONE_INDEX:
+                tag = TabOneFragment.class.getSimpleName();
+                fr = fm.findFragmentByTag(tag);
+                if(fr == null){
+                    fr = new TabOneFragment();
+                }
+                break;
+            case Constants.Index.INDICATOR_INDEX:
+                tag = IndicatorFragment.class.getSimpleName();
+                fr = fm.findFragmentByTag(tag);
+                if(fr == null){
+                    fr = new IndicatorFragment();
                 }
                 break;
         }
